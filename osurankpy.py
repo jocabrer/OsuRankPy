@@ -69,6 +69,6 @@ stats = parsed_json['statistics']
 print('Hola '+ parsed_json['username'])
 stats = parsed_json['statistics']
 print('Tu rank actual es ' + str(stats['pp_rank']))
-
+print('Presione cualquier tecla para cerrar ')
 #cerrar el programa.
 msvcrt.getch()
